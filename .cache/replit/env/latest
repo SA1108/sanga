@@ -1,0 +1,55 @@
+declare -gx REPLIT_DOMAINS=8ae95d0a-edbf-4369-899e-c8c79913a15f-00-319chs31ws157.sisko.replit.dev
+declare -gx REPL_SLUG=PleasantSaltyInterfaces
+declare -gx PROMPT_DIRTRIM=2
+declare -gx REPLIT_RIPPKGS_INDICES=/nix/store/72dfj6fpcs0xzy908kb6dkdmh7n4gjia-rippkgs-indices
+declare -gx XDG_CONFIG_HOME=/home/runner/PleasantSaltyInterfaces/.config
+declare -gx REPLIT_CLUSTER=sisko
+declare -gx REPLIT_PID1_VERSION=0.0.0-578cd8e
+declare -gx REPL_PUBKEYS='{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:3":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:4":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:5":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","vault-goval-token":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:1":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:latest":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E="}'
+declare -gx REPLIT_CLI=/nix/store/7w69qm7rpvxldiwzy97vz177cg5i10zl-pid1-0.0.1/bin/replit
+declare -gx NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+declare -gx LIBGL_DRIVERS_PATH=/nix/store/141m63y55hh07jcry2lk5w2x5x5bg0b0-mesa-24.2.6-drivers/lib/dri
+declare -gx REPL_OWNER_ID=36176216
+declare -gx NIXPKGS_ALLOW_UNFREE=1
+declare -gx DISPLAY=:0
+declare -gx LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+declare -gx REPLIT_ENVIRONMENT=production
+declare -gx COLORTERM=truecolor
+declare -gx NIX_PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+declare -gx HOSTNAME=cc2dcef04e6b
+declare -gx REPL_IDENTITY_KEY=k2.secret.ekrE1GI_sLJUlZTjIKNNsAB_kpq0E5d77q3Ur6VljyVRj0eSnybZTtWoUS7ncFfdpqp0LLQBwcFKgTvwzXt24w
+declare -gx XDG_DATA_HOME=/home/runner/PleasantSaltyInterfaces/.local/share
+declare -gx REPLIT_PID1_FLAG_REPLIT_RTLD_LOADER=1
+declare -gx LANG=en_US.UTF-8
+declare -gx SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPLIT_DEV_DOMAIN=8ae95d0a-edbf-4369-899e-c8c79913a15f-00-319chs31ws157.sisko.replit.dev
+declare -gx __EGL_VENDOR_LIBRARY_FILENAMES=/nix/store/141m63y55hh07jcry2lk5w2x5x5bg0b0-mesa-24.2.6-drivers/share/glvnd/egl_vendor.d/50_mesa.json
+declare -gx REPLIT_RTLD_LOADER=1
+declare -gx HOME=/home/runner
+declare -gx REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPLIT_PID1_FLAG_NIXMODULES_BEFORE_REPLIT_NIX=1
+declare -gx REPLIT_LD_AUDIT=/nix/store/n5x1kgbz8zjh63ymsijbislyi1n1hir6-replit_rtld_loader-1/rtld_loader.so
+read -r _new_path <<< "/nix/store/yza1fycpqjvyi5wfpjvbrjwq7hnb3m9z-pid1/bin:/nix/store/7k37v3cl7mnsmgkw0bjm15qmafbdg0wm-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+#PATH=/nix/store/yza1fycpqjvyi5wfpjvbrjwq7hnb3m9z-pid1/bin:/nix/store/7k37v3cl7mnsmgkw0bjm15qmafbdg0wm-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+if [ -e "/run/replit/env/last" ]; then read -r _last_path < <(\grep '^#PATH=' /run/replit/env/last | cut -f 2 -d =); fi
+_user_components="$(\tr : $'\n' <<< "${PATH:-}" |\grep -xv -f <(\tr : $'\n' <<< "${_last_path}") |\tr $'\n' :)"
+declare -gx PATH="${_user_components}${_new_path}"
+declare -gx REPLIT_SUBCLUSTER=interactive
+declare -gx REPL_ID=8ae95d0a-edbf-4369-899e-c8c79913a15f
+declare -gx REPL_HOME=/home/runner/PleasantSaltyInterfaces
+declare -gx DIRENV_CONFIG=/etc/direnv
+declare -gx USER=runner
+declare -gx NIX_PROFILES='/nix/var/nix/profiles/default /home/runner/.nix-profile'
+declare -gx REPLIT_BASHRC=/nix/store/1dixvnrbgnmg49kwfqfd5by5kvagif3z-replit-bashrc/bashrc
+declare -gx XDG_CACHE_HOME=/home/runner/PleasantSaltyInterfaces/.cache
+declare -gx GIT_EDITOR=replit-git-editor
+declare -gx REPLIT_NIX_CHANNEL=stable-23_11
+declare -gx REPL_OWNER=yoronhome
+declare -gx REPL_LANGUAGE=html
+declare -gx GIT_ASKPASS=replit-git-askpass
+declare -gx NIX_PATH=nixpkgs=/home/runner/.nix-defexpr/channels/nixpkgs-stable-23_11:/home/runner/.nix-defexpr/channels
+declare -gx REPL_IMAGE=gcr.io/marine-cycle-160323/nix:bf8590a3e2f0a8b70b7ca175eeed9074dffbfca9
+declare -gx REPLIT_DB_URL=https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE3MzQwOTAxMTYsImlhdCI6MTczMzk3ODUxNiwiZGF0YWJhc2VfaWQiOiI4YWU5NWQwYS1lZGJmLTQzNjktODk5ZS1jOGM3OTkxM2ExNWYifQ.7vWgAVLwWYm_We0pLgX2PzENEy2QyXfqVDZAuB_hD33evNkSFQBKhOBJgFITogTyxYzmHZ-r2NsZQqjOFPEJLw
+declare -gx REPL_IDENTITY=v2.public.Q2lRNFlXVTVOV1F3WVMxbFpHSm1MVFF6TmprdE9EazVaUzFqT0dNM09Ua3hNMkV4TldZU0NYbHZjbTl1YUc5dFpSb1hVR3hsWVhOaGJuUlRZV3gwZVVsdWRHVnlabUZqWlhNaUpEaGhaVGsxWkRCaExXVmtZbVl0TkRNMk9TMDRPVGxsTFdNNFl6YzVPVEV6WVRFMVpqallncUFSV2hRS0JYTnBjMnR2RWd0cGJuUmxjbUZqZEdsMlpRPT2REYaad3JNL3C4RSzWSGWGqdwPnuDwqSj3M-afPWG9EqsGpaPIVCVRALX3yN0YaqqgXX0MkviMzJT72CMclvcD.R0FFaUJtTnZibTFoYmhLUkNIWXlMbkIxWW14cFl5NVJNbVF6VTFkb2ExVklRakZhTVd4U1pVUmtTVlp0YkZKVVZrNUZVVmR3Vm1WRE9VaE9hMHB2VVhwa01GcEdaRXRSV0doMlVUQmtRbFpYUmt0YU1qbHlWREJrUjJKRk9WVldiWFJPVWpCV01GZHNaRk5oVm5Cd1RVUkNUbVZzYXpGVVJsSnVUbFU1V0ZaWVVscGxiV2h4Vkc1d2NrNVZNVlZVYldoT1ZrWmFkRkl5WkhwVk1FNVpZa2hhYW1KVWJERlpWV00xWkVad1UySXdXbEJVYld4RVlqQktSbGxWU2pWVFZWcHFUVzE0TmxsVVNUUlpWVkpVWWpCNGFGWjZWWGRYYkdoTFlVWnJlbFZ1UW10aVZsWndWR3hrZW1WVmVIVlJha1phWWxob2QxZFlhekZXYkdSVllrVnNhRTB3UlRCWmJGSkxWbXMwZUZkdWFGTmhNVmw0Vkd4U1QxRXhaRVZVYldoYVYwVmFjbFZVVG5Ka01VWllWR3RzVW1KRk5USlZiRkpxVGtaU1ZWSlVUbUZUUmxwUFIxcElRV3hMUTJGVGVsRnROakZRVW5CVFptUjZSR05FTVZCTlUwMVZTRlp0ZUZOSVFqRmlURmxoVVd0TlpGZFVlR3h3Um1vd1QzbEtjMUpuTkRRNFVqQkxVMDkwWXpKRVVXRjJWMFJtUW1WNVlrb3lSRkV1VWpCR1JtRlZTblJVYmxwcFlsUkdiMWx0YUUxWmEwWjFWMWhzVFdKclNYaFhWekUwWTBac05VNVdTazVpVmtreVZsUkdhMDFIVm5SVGJGcFVZbTVDVjFadE1UUlZNVkp5VlcxR1RsWnVRbGRWTW5SUFZrWmFXV0ZGVmxabGEwcHlWV3BCTVZOV1JuSlRiRnBPVW14d1UxWnRjRTlaVjFKWFlqTm9VMkpYYUZOV2FrcHZaRlpXV0dSSGRHbGlSVFZZV1d0V1QxWnRTbFZpUlZaV1lXdEtTRnBIZUhOV2JFcDFVbXhLVjFaWVFrcFdNbkJEWXpGa2MxSnNhR2hUUm5CVFZGVmtVMUV4V2tkYVJXUlNZbFZhU1ZkclZYaFZNREYwVld0MFYwMVdXbFJWVkVwS1pERlNjbUZHU2xkaE1YQjJWbFphYTJJeVNuTlVia3BwVTBWYVdGbHRkSGRVTVd4WFZXeGtUazFZUWtoWGExWXdZV3N4Y2xkc2JGZFNiV2hZVmtSR1lXUkhWa2xqUm1SWFlsWktTVlpHVWt0VU1rMTVVMnBhVm1GNmJGaFVWM2hMWWpGWmVVMVVVbFJOYTFwSFZGWldhMVpIU2taWGJGcGFWbnBGTUZkV1duTk9iRVpWVW0xd2FWSllRalpXUkVaWFdWZEZlVk5zYkZaV1JWcFhXV3RhWVdOc2NFaGxSVnBzVW01Q1JsWXlNWGRoUjBWNFkwYzVWMkZyV2xSVmVrWk9aVVphYzFOc1JsZFNSVW96VmpKMFlWZHRUblJqUlRGUVYwVTBlbHBGVmxwT1ZuQkZVbGhTYVdKVVZsRlVNR1JoVlcxS1dHRkVTbFJTVm5CNFZtdFdjbVJIVWtWaFJYQnBZbFp3VVZkRVNYaFdWVEYwV1hwU2FsZElRa1pWYTJSV1RrWmFSV0pHVW1oTlZrbzJWMjE0YjJKWFZuSmlla0pZVmxVeE5sZHRjM2RsYkdSV1RsaEtWRlpIVWxsWFYydDNUbFpLY2xWdE9VOWhWRVpNVkdwSk5WSkZlSE5UV0dSVFlURndiMVpzVm5kTlJscElUbGRHYUZZd2NGWlZiVEExVjIxS1dGVnFTbFpoYTNCUVZURmFUMlJXWkhSU2JFNVRaVzFuTUE9PQ
+declare -gx DOCKER_CONFIG=/home/runner/PleasantSaltyInterfaces/.config/docker
+declare -gx DENO_TLS_CA_STORE=system
