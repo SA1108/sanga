@@ -2902,8 +2902,8 @@ img.u-pull-left {
     position: absolute;
     width:50%;
     height:50%;
-    left:0;
-    top:0;
+    left:50%;
+    top:50%;
     border:none;
 }
 
