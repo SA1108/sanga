@@ -2903,7 +2903,8 @@ img.u-pull-left {
     width:50%;
     height:50%;
     left:50%;
-    top:50%;
+    right:50%;
+    top:0;
     border:none;
 }
 
