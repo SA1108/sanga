@@ -2900,8 +2900,8 @@ img.u-pull-left {
 
 .shorts-iframe{
     position: absolute;
-    width:100%;
-    height:100%;
+    width:50%;
+    height:50%;
     left:0;
     top:0;
     border:none;
