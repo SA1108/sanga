@@ -3359,6 +3359,9 @@ img.u-pull-left {
     right: 0;
     top: calc(50% + 2px);
 }
+.s-header__nav .current-menu-item>a {
+border-bottom: 1px solid var(--color-text-dark);
+}
 
 .s-header__nav ul {
     z-index: 200;
