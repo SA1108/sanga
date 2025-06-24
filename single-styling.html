@@ -3,8 +3,7 @@
 
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
+    <!-- 기본 설정 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SA</title>
@@ -14,13 +13,11 @@
         document.documentElement.classList.add('js');
     </script>
 
-    <!-- CSS
-    ================================================== -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- favicons
-    ================================================== -->
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -30,9 +27,7 @@
 
 <body id="top">
 
-
-    <!-- preloader
-    ================================================== -->
+    <!-- Preloader -->
     <div id="preloader">
         <div id="loader" class="dots-fade">
             <div></div>
@@ -41,90 +36,65 @@
         </div>
     </div>
 
-
-    <!-- page wrap
-    ================================================== -->
+    <!-- Page Wrap -->
     <div id="page" class="s-pagewrap">
 
-
-        <!-- # site header 
-        ================================================== -->
+        <!-- Site Header -->
         <header id="masthead" class="s-header">
-
             <div class="s-header__branding">
                 <p class="site-title">
-                    <a href="index.html" rel="home">Ji Sang A.</a>
+                    <a href="index.html" rel="home" aria-label="홈으로 이동">Ji Sang A.</a>
                 </p>
             </div>
 
             <div class="row s-header__navigation">
-
                 <nav class="s-header__nav-wrap">
-
                     <ul class="s-header__nav">
-                        <li class="current-menu-item"><a href="index.html" title="">Portfolio</a></li>
-                        <li><a href="styles.html" title="">About</a></li>
-
+                        <li class="current-menu-item"><a href="index.html" title="포트폴리오">Portfolio</a></li>
+                        <li><a href="styles.html" title="소개">About</a></li>
                     </ul>
-
                 </nav>
-
             </div>
 
-
             <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-
-
         </header>
 
-
-        <!-- # site-content
-        ================================================== -->
+        <!-- Site Content -->
         <div id="content" class="s-content s-content--blog">
-
             <div class="row entry-wrap">
                 <div class="column lg-12">
-
                     <article class="entry format-standard">
 
                         <header class="entry__header">
-
-                            <h1 class="entry__title">
-                                Styling Shorts
-                            </h1>
-
-                            
-
-                            </div>
+                            <h1 class="entry__title">Styling Shorts</h1>
                         </header>
 
-                        <img src="styling-a.png">
-
-
+                        <img src="styling-a.png" alt="Styling Shorts Image">
 
                         <div class="shorts-container">
-                            <iframe class="shorts-iframe" src="https://www.youtube.com/embed/K6LMwltRNSg?" allow="accelerometer; autoplay; 
-                                clipboard-write; encrypted-media; gyroscpoe; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="shorts-iframe"
+                                src="https://www.youtube.com/embed/K6LMwltRNSg?"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
 
+                    </article>
 
-                    </article> <!-- end entry -->
+                    <!-- Comments (비워진 상태) -->
+                    <div class="comments-wrap"></div>
+                </div>
 
-                    <!-- comments -->
-                    <div class="comments-wrap">
-
-
-                    </div>
-                </div> <!-- end entry-wrap -->
+                <!-- Footer -->
                 <div class="column lg-10 md-6 tab-12">
                     <div class="ss-copyright">
                         <span>© Copyright 2025 </span>
-                        <span>Design by <a>Ji Sang A </a></span>
+                        <span>Design by <a href="#" aria-label="디자이너 링크">Ji Sang A</a></span>
                     </div>
                 </div>
 
+                <!-- Back to Top -->
                 <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
+                    <a class="smoothscroll" title="맨 위로 이동" href="#top">
                         <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5" d="M17.25 10.25L12 4.75L6.75 10.25" />
@@ -132,18 +102,15 @@
                                 stroke-width="1.5" d="M12 19.25V5.75" />
                         </svg>
                     </a>
-                </div> <!-- end ss-go-top -->
-                </section> <!-- end s-content -->
+                </div>
+            </div>
+        </div>
 
+    </div> <!-- end page wrap -->
 
-                <!-- # site-footer
-        ================================================== -->
-
-
-                <!-- Java Script
-    ================================================== -->
-                <script src="js/plugins.js"></script>
-                <script src="js/main.js"></script>
+    <!-- JavaScript -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
