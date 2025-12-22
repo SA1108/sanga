@@ -3100,8 +3100,8 @@ img.u-pull-left {
 }
 
 .bricks-wrapper .entry__meta a {
-    font-weight: 300;
-    color: var(--color-gray-15);
+    font-weight: 500;
+    color: black ;
 }
 
 .bricks-wrapper .entry__meta a:focus,
